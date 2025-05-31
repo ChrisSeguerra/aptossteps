@@ -1,0 +1,10 @@
+[package]
+name = "aptosteps"
+version = "1.0.0"
+authors = ["Chris Seguerra"]
+
+[addresses]
+aptosteps = "0x063017940d1d7e1238e5f22df38320af18a36d9f4e591d43329adfc3c9ce20d8"
+
+[dependencies]
+AptosFramework = { git = "https://github.com/aptos-labs/aptos-core.git", subdir = "aptos-move/framework/aptos-framework", rev = "main" }
